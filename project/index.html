@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <div id="adminLoginContainer">
+      <div id="adminLogin">
+        <label id="status">Admin Login</label> <br />
+        <label>User Name</label>
+        <input type="text" id="adminUserName" />
+        <label>Password</label>
+        <input type="password" id="adminPassword" /> <br />
+        <button id="adminBtn">Log In</button>
+      </div>
+    </div>
+
+    <div id="allContainer">
+      <div class="navContainer">
+        <nav>
+          <ul>
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#" id="account">Account</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+
+        <div id="accountInfo">
+          <div id="login">Log In</div>
+          <div id="signup">Sign Up</div>
+        </div>
+      </div>
+
+      <div id="homeContainer">your at home page</div>
+
+      <div class="box" id="box">
+        <div class="signUpContainer" id="signUpContainer">
+          <h1>Sign Up</h1>
+          <label>First Name</label>
+          <input type="text" id="firstName" />
+          <div class="shortContainer">
+            <div class="miContainer">
+              <label>M.I.</label>
+              <input type="text" id="middleInitial" />
+            </div>
+            <div class="nickNameContainer">
+              <label>Nick Name</label>
+              <input type="text" id="nickName" />
+            </div>
+          </div>
+          <label>Last Name.</label>
+          <input type="text" id="lastName" />
+          <label>Password</label>
+          <input type="password" id="password" />
+          <div class="btnContainer">
+            <button type="submit" id="previewBtn">preview</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="previewContainer" id="previewContainer">
+        <div class="closeBtn" id="closeBtn">
+          <p>x</p>
+        </div>
+        <label>Name:</label>
+        <label
+          id="fullName"
+          style="margin-left: 50px; font-size: 18px; font-weight: 600"
+          >First Name:</label
+        >
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
