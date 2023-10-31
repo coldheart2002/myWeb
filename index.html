@@ -9,7 +9,7 @@
   <body>
     <div id="adminLoginContainer">
       <div id="adminLogin">
-        <label id="status">Admin Login</label> <br />
+        <label id="adminStatus">Admin Login</label> <br />
         <label>User Name</label>
         <input type="text" id="adminUserName" />
         <label>Password</label>
@@ -55,8 +55,18 @@
           </div>
           <label>Last Name.</label>
           <input type="text" id="lastName" />
-          <label>Password</label>
-          <input type="password" id="password" />
+          <div class="shortContainer">
+            <div class="courseContainer">
+              <label>Course</label>
+              <input type="text" id="courseInput" />
+            </div>
+            <div class="bloodType">
+              <label>Blood Type</label>
+              <input type="text" id="bloodTypeInput" />
+            </div>
+          </div>
+          <label>Guardian</label>
+          <input type="text" id="guardianInput" />
           <div class="btnContainer">
             <button type="submit" id="previewBtn">preview</button>
           </div>
@@ -68,11 +78,16 @@
           <p>x</p>
         </div>
         <label>Name:</label>
-        <label
-          id="fullName"
-          style="margin-left: 50px; font-size: 18px; font-weight: 600"
-          >First Name:</label
-        >
+        <label id="fullNameLabel" class="previewLabel"></label>
+
+        <label>Course:</label>
+        <label id="courseLabel" class="previewLabel"></label>
+
+        <label>Blood Type:</label>
+        <label id="bloodTypeLabel" class="previewLabel"></label>
+
+        <label>Guardian:</label>
+        <label id="guardianLabel" class="previewLabel"></label>
       </div>
     </div>
     <script src="script.js"></script>
