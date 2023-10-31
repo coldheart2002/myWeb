@@ -52,6 +52,7 @@ nav ul li a {
   width: 40%;
   margin-bottom: 20px;
   text-decoration: none;
+  text-transform: none;
 }
 
 #adminLogin input #status {
