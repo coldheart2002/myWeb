@@ -23,6 +23,7 @@ function adminLogin() {
     allContainer.style.display = "block";
     adminLoginContainer.style.display = "none";
   } else {
+    alert("invalid username or password");
     console.log(adminUserName);
     console.log(adminPassword);
   }
