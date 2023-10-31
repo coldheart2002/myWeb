@@ -181,7 +181,7 @@ button {
   transform: translate(-50%, -50%);
   border: solid 1px black;
   width: 450px;
-  height: 500px;
+  height: 400px;
   background-color: lightgray;
   border-radius: 20px;
   display: none;
